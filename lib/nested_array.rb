@@ -28,11 +28,11 @@ end
 # uses the arrays of conventional and organic produce as before.
 # However, this time, sort each internal array alphabetically by the first character
 def sorted_matrix
-
-  sorted_array = [
-    ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"],
-    ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"]
-  ]
+  produce = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
+  # sorted_array = [
+  #   ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"],
+  #   ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"]
+  # ]
 end
 
 def matrix_lookup(matrix, row, column)
